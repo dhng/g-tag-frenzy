@@ -3,4 +3,6 @@ class PageController < ApplicationController
 	end
 	def buttons
 	end
+	def backoffice
+	end
 end

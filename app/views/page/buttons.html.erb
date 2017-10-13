@@ -1,0 +1,5 @@
+<div class="container text-center" style="background-image:url(<%=asset_path '42_background.png' %>);background-position:center;">
+	<% for i in 1..50 do %>
+		<a id="buttons-btn<%=i%>" style="margin:25px 25px 25px 25px;" class="btn btn-primary" href="">Button n°<%=i.to_s.rjust(2, '0')%></a>
+	<% end %>
+</div>

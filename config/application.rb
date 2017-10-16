@@ -12,7 +12,7 @@ module GTagFrenzy
 	config.load_defaults 5.1
 
 	# Generate digests for assets URLs  
-	config.assets.digest = false
+	# config.assets.digest = false
 
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration should go into files in config/initializers

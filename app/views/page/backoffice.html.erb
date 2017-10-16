@@ -38,9 +38,7 @@
 var count = 0;
 $('#add2tab').on('click', function(){
   count++;
-  $('#myTable tbody:last-child').append('
-    <tr><td>'+count+'</td><td>body1</td><td>body2</td></tr>
-  ');
+  $('#myTable tbody:last-child').append('<tr><td>'+count+'</td><td>body1</td><td>body2</td></tr>');
 });
 $('#del4tab').on('click', function(){
   $('#myTable tbody tr:last').remove();
